@@ -37,9 +37,9 @@
 
 
 (require 'install-packages-pack)
-(install-packs '(marmalade-upload))
+(install-packs '(marmalade-client))
 
-(require 'marmalade-upload)
+(require 'marmalade-client)
 
 (setq marmalade/default-token-name "token")
 
