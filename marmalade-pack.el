@@ -37,7 +37,7 @@
 
 
 (require 'install-packages-pack)
-(install-packs '(marmalade-client))
+(install-packages-pack/install-packs '(marmalade-client))
 
 (require 'marmalade-client)
 
