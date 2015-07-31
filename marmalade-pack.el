@@ -36,12 +36,9 @@
 ;;; Code:
 
 
-(require 'install-packages-pack)
-(install-packages-pack/install-packs '(marmalade-client))
-
-(require 'marmalade-client)
-
-(setq marmalade/default-token-name "token")
+(use-package marmalade-client
+  :config
+  (setq marmalade/default-token-name "token"))
 
 (provide 'marmalade-pack)
 ;;; marmalade-pack.el ends here
