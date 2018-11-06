@@ -36,9 +36,8 @@
 ;;; Code:
 
 
-(use-package marmalade-client
-  :config
-  (setq marmalade/default-token-name "token"))
+(require 'marmalade-client)
+(setq marmalade/default-token-name "token")
 
 (provide 'marmalade-pack)
 ;;; marmalade-pack.el ends here
